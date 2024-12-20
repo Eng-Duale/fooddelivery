@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(5, 5, 54);
+    color: white;
+    padding: 15px 0px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+   margin: 0 auto;  
+}
+
+.logo{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.navi{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 30px;
+    /* background-color: white; */
+}
+
+.navi li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navi li a:hover{
+    color: rgb(5, 5, 54);
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 5px 10px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 5rem 7rem;
+    background: linear-gradient(135deg, #2f2d2d, #4a90e2);
+    color: white;
+
+    /* max-width: 500px; */
+}
+
+.home-content{
+    max-width: 500px;
+    align-items: center;
+}
+
+.home-content h1{
+    /* font-size: 40px; */
+    font-size: 3rem;
+    margin-bottom: 1rem;
+ 
+}
+
+.home-content p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ffdd57;
+    border-radius: 5px;
+    color: rgb(0, 0, 60);
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #765f00;
+    color: white;
+    
+}
+
+.img img{
+ 
+    border-radius: 15px;
+}
+
+/* services section */
+#services_section{
+    padding: 5rem 0;
+    background-color: #f9f9f9;
+    /* margin-right: 1rem; */
+}
+.service-grid{
+    display: flex;
+    gap: 1.5rem;
+}
+
+#services_section h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.service{
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service h3{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.service p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* about us  */
+.background-image{
+    position: relative;
+    color: #fff;
+    padding: 6rem 2rem;
+    text-align: center;
+    padding: 6rem 2rem;
+    background: url('1200x600.png') no-repeat center;
+}
+
+.about_content{
+    position: relative;
+    max-width: 700px;
+    z-index: 2;
+    margin: auto;
+}
+
+.about_content h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.about_content p{
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+/* contact sections */
+.contact-section{
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ddd;
+}
+.contact-content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.contac-image img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.contact-form-container{
+    max-width: 600px;
+    flex-grow: 1;
+}
+.contact-form-container h2{
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+.contact-form-container p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.contact-form label{
+    font-size: 1.1rem;
+    color: #333;
+
+}
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;    
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contact-form textarea{
+    resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    border-color: #4a90e2;
+    outline: none;
+}

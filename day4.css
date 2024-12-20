@@ -1,0 +1,38 @@
+ span{
+    display: block;
+    
+    border: 2px;
+    border-style: dashed;
+    width: 200px;
+    height: 200px;
+    /* padding-top: 20px;
+    padding-left: 20px; */
+    /* wuxu kasoo durkaya borderka */
+    padding : 20px 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    /* margin : 20px 20px; */
+    background-color: blue;
+    color: white;
+    background-image: url('300x200.png');
+    background-size: cover;
+    border-radius: 15px;
+ }
+
+ #class2{
+    display: inline;
+
+ }
+
+ .hidden{
+    display: none;
+ }
+ .flex ul{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    list-style-type: none;
+ }
+
+ 
